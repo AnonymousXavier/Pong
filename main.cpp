@@ -43,7 +43,7 @@ void setup() {
 
   entityManager.setPlayerID(playerID);
   create_ball(
-      entityManager, screen_width / 2, screen_height / 2, Colors::WHITE_TEXT, {1, 1}
+      entityManager, screen_width / 2, screen_height / 2, Colors::WHITE_TEXT, {0, -1}
   );
 
   create_pad(

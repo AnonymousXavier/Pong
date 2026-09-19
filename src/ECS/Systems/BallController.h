@@ -8,4 +8,5 @@ class BallController {
 public:
   static void process(EventsManager &eventsManager, EntityManager &entityManager);
   static void move(EntityManager &entityManager, EventsManager &eventsManager, EntityID ballID);
+  static void compute_bounce(EntityManager &entityManager, EventsManager &eventsManager, EntityID ballID);
 };
