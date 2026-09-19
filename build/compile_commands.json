@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\main.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\main.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/main.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\ECS\\Managers\\EntityManager.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\ECS\\Managers\\EntityManager.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/ECS/Managers/EntityManager.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/ECS/Managers/EntityManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\ECS\\Managers\\EventsManager.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\ECS\\Managers\\EventsManager.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/ECS/Managers/EventsManager.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/ECS/Managers/EventsManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\ECS\\Systems\\BallController.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\ECS\\Systems\\BallController.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/ECS/Systems/BallController.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/ECS/Systems/BallController.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\ECS\\Systems\\InputSystem.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\ECS\\Systems\\InputSystem.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/ECS/Systems/InputSystem.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/ECS/Systems/InputSystem.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\ECS\\Systems\\MovementSystem.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\ECS\\Systems\\MovementSystem.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/ECS/Systems/MovementSystem.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/ECS/Systems/MovementSystem.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\ECS\\Systems\\PlayerController.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\ECS\\Systems\\PlayerController.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/ECS/Systems/PlayerController.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/ECS/Systems/PlayerController.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\ECS\\Systems\\RenderingSystem.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\ECS\\Systems\\RenderingSystem.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/ECS/Systems/RenderingSystem.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/ECS/Systems/RenderingSystem.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\Factories.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\Factories.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/Factories.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/Factories.cpp.obj"
+},
+{
+  "directory": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe -I\"C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src\" -std=gnu++20 -o CMakeFiles\\App.dir\\src\\engine\\engine.cpp.obj -c \"C:\\Users\\New\\Documents\\Desktop\\Projects\\C++\\Kate\\Console Projects\\Pong\\src\\engine\\engine.cpp\"",
+  "file": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/src/engine/engine.cpp",
+  "output": "C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir/src/engine/engine.cpp.obj"
+}
+]
