@@ -1,3 +1,0 @@
-C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/App.dir
-C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/edit_cache.dir
-C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/rebuild_cache.dir
