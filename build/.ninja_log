@@ -1,17 +1,15 @@
 # ninja log v7
-5	55	8113531497067265	C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/cmake.verify_globs	fbcda238eaea67c2
-65	1962	8113531497660912	CMakeFiles/App.dir/main.cpp.obj	53189499b70922d6
-163	5822	8113413444590429	CMakeFiles/App.dir/src/engine/engine.cpp.obj	b03e4320f9bd6dc1
-1963	2224	8113531516644806	App.exe	6bd4c89f653f5c7e
+5	55	8115511105836957	C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/cmake.verify_globs	fbcda238eaea67c2
+66	2237	8115511106408368	CMakeFiles/App.dir/main.cpp.obj	53189499b70922d6
+145	4264	8115508623187787	CMakeFiles/App.dir/src/engine/engine.cpp.obj	b03e4320f9bd6dc1
+2241	2625	8115511128148179	App.exe	6bd4c89f653f5c7e
 152	5837	8113413444490400	CMakeFiles/App.dir/src/Factories.cpp.obj	c5524383cb8cbe2d
 92	3044	8112785916521903	CMakeFiles/App.dir/src/ECS/EntityManager.cpp.obj	32fcd76ccc25fb4c
-142	6078	8113413444390385	CMakeFiles/App.dir/src/ECS/Systems/RenderingSystem.cpp.obj	9d30f75f91098bd9
+136	4819	8115508623115927	CMakeFiles/App.dir/src/ECS/Systems/RenderingSystem.cpp.obj	9d30f75f91098bd9
 91	5976	8113413443877319	CMakeFiles/App.dir/src/ECS/Managers/EventsManager.cpp.obj	c8e9e01d6cec3e6b
 82	6287	8113413443788615	CMakeFiles/App.dir/src/ECS/Managers/EntityManager.cpp.obj	b59f19f736a363d2
 64	1885	8113531088463180	CMakeFiles/App.dir/src/ECS/Systems/PlayerController.cpp.obj	35503f31cee53b9e
-111	5886	8113413444080372	CMakeFiles/App.dir/src/ECS/Systems/InputSystem.cpp.obj	7e079492133e24fa
-63	2033	8113530727215568	CMakeFiles/App.dir/src/ECS/Systems/MovementSystem.cpp.obj	29e243567cba5d78
-72	2195	8113531379920531	CMakeFiles/App.dir/src/ECS/Systems/BallController.cpp.obj	7ac30f4201b541bf
-7	54	8113532478200401	C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/cmake.verify_globs	fbcda238eaea67c2
-63	1907	8113532478769116	CMakeFiles/App.dir/src/ECS/Systems/MovementSystem.cpp.obj	29e243567cba5d78
-1908	2132	8113532497219115	App.exe	6bd4c89f653f5c7e
+116	4705	8115508622796122	CMakeFiles/App.dir/src/ECS/Systems/InputSystem.cpp.obj	7e079492133e24fa
+126	4779	8115508622954684	CMakeFiles/App.dir/src/ECS/Systems/MovementSystem.cpp.obj	29e243567cba5d78
+75	2241	8115511106533328	CMakeFiles/App.dir/src/ECS/Systems/BallController.cpp.obj	7ac30f4201b541bf
+5	46	8115512644340440	C:/Users/New/Documents/Desktop/Projects/C++/Kate/Console Projects/Pong/build/CMakeFiles/cmake.verify_globs	fbcda238eaea67c2

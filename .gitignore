@@ -1,0 +1,7 @@
+# Build artifacts and compiler caches
+/build/
+/.cache/
+/cache/
+
+# Local environment paths
+compile_commands.json
