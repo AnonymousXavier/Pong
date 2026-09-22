@@ -5,7 +5,7 @@
 constexpr short screen_width = 100;
 constexpr short screen_height = screen_width / 4;
 
-constexpr short padheight = 5;
+constexpr short padheight = 7;
 constexpr short padWidth = 1;
 constexpr int padMoveSpeed = 1;
 

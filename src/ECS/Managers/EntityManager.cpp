@@ -5,6 +5,24 @@ EntityID EntityManager::CreateEntity() { return nextEntityId++; }
 void EntityManager::setPlayerID(EntityID id) { playerID = id; }
 EntityID EntityManager::getPlayerID() { return playerID; }
 
+void EntityManager::DeleteEntity(EntityID id) {
+  if (EntityManager::HasBallTag(id)) {
+    ballTags.erase(id);
+  }
+  if (EntityManager::HasEnemyTag(id)) {
+    enemyTags.erase(id);
+  }
+  if (EntityManager::HasRenderComponent(id)) {
+    renderComponents.erase(id);
+  }
+  if (EntityManager::HasSpatialComponent(id)) {
+    spatialComponents.erase(id);
+  }
+  if (EntityManager::HasVelocityComponent(id)) {
+    velocityComponents.erase(id);
+  }
+}
+
 // Add Functions
 void EntityManager::AddComponent(EntityID id, SpatialComponent component) {
   spatialComponents[id] = component;

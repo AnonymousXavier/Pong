@@ -4,7 +4,6 @@
 #include "ECS/components.h"
 #include "configs/Misc.h"
 #include "configs/settings.h"
-#include <cstdio>
 #include <vector>
 
 void BallController::process(
@@ -66,4 +65,17 @@ void BallController::compute_bounce(
       velocityComp.dy = -1;
     }
   }
+}
+
+EntityID BallController::getUnavailableBall(EntityManager &entityManager) {
+  for (auto &[ballID, BallTag] : entityManager.ballTags) {
+    if (entityManager.HasSpatialComponent(ballID)) {
+      SpatialComponent ballSpatial = entityManager.spatialComponents[ballID];
+      if (ballSpatial.x < 0 || ballSpatial.x > screen_width || ballSpatial.y < 0 ||
+          ballSpatial.y > screen_height) {
+        return ballID;
+      }
+    }
+  }
+  return 0;
 }
