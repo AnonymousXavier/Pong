@@ -2,13 +2,36 @@
 #include "ECS/Managers/EntityManager.h"
 #include "ECS/Managers/EventsManager.h"
 #include "ECS/components.h"
+#include "configs/Misc.h"
 #include "configs/settings.h"
+#include <cstdio>
+#include <vector>
 
 void BallController::process(
     EventsManager &eventsManager, EntityManager &entityManager
 ) {
+
+  std::vector<EntityID> collidedBalls;
+
+  for (const GameEvent &gameEvent : eventsManager.getEvent()) {
+    if (gameEvent.type == EventType::collisionEvent) {
+      VelocityComponent &ballVelocity =
+          entityManager.velocityComponents[gameEvent.collision.ballID];
+      if (gameEvent.collision.padID == entityManager.getPlayerID()) {
+        ballVelocity.dx = 1; // Is the player
+      } else {
+        ballVelocity.dx = -1; // Is an enemy
+      }
+      BallController::move(entityManager, eventsManager, gameEvent.collision.ballID);
+      collidedBalls.push_back(gameEvent.collision.ballID);
+    }
+  }
+
   for (auto &[ballID, BallTag] : entityManager.ballTags) {
-    if (entityManager.velocityComponents.count(ballID)) {
+    if (entityManager.HasVelocityComponent(ballID)) {
+      if (find(collidedBalls, ballID)) {
+        continue;
+      }
       BallController::compute_bounce(entityManager, eventsManager, ballID);
       BallController::move(entityManager, eventsManager, ballID);
     }

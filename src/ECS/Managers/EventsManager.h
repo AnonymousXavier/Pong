@@ -3,7 +3,7 @@
 #include "ECS/Managers/EntityManager.h"
 #include <vector>
 
-enum class EventType { MoveIntent, keyPress };
+enum class EventType { MoveIntent, keyPress, collisionEvent };
 
 // Define Specific Event Types
 struct KeyDownEvent {
@@ -17,6 +17,11 @@ struct MoveEvent {
   unsigned int moveSpeed;
 };
 
+struct CollisionEvent {
+  EntityID ballID;
+  EntityID padID;
+};
+
 // Define the Generic Event Type
 struct GameEvent {
   EventType type;
@@ -24,6 +29,7 @@ struct GameEvent {
   union {
     MoveEvent movement;
     KeyDownEvent key;
+    CollisionEvent collision;
   };
 };
 
@@ -32,9 +38,10 @@ private:
   std::vector<GameEvent> events;
 
 public:
-  std::vector<GameEvent> getEvent();
+  const std::vector<GameEvent>& getEvent() const;
   void clearEvent();
   void AddEvent(MoveEvent moveEvent);
   void AddEvent(KeyDownEvent keyPress);
+  void AddEvent(CollisionEvent collision);
   void process();
 };

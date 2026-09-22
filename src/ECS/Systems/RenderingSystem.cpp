@@ -1,9 +1,8 @@
 #include "RenderingSystem.h"
 
 void RenderingSystem::process(EntityManager &manager) {
-  for (auto &[entityId, renderComponent] : manager.renderComponents) {
+  for (auto &[entityId, renderComp] : manager.renderComponents) {
     if (manager.spatialComponents.count(entityId)) {
-      RenderComponent renderComp = manager.renderComponents[entityId];
       SpatialComponent spatialComp = manager.spatialComponents[entityId];
 
       draw_rect(

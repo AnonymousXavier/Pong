@@ -27,4 +27,10 @@ public:
   void AddComponent(EntityID id, EnemyTag component);
   void AddComponent(EntityID id, BallTag component);
   void AddComponent(EntityID id, VelocityComponent component);
+
+  bool HasSpatialComponent(EntityID id);
+  bool HasRenderComponent(EntityID id);
+  bool HasEnemyTag(EntityID id);
+  bool HasBallTag(EntityID id);
+  bool HasVelocityComponent(EntityID id);
 };
