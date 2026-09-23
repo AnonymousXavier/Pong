@@ -8,6 +8,7 @@ constexpr short screen_height = screen_width / 4;
 constexpr short padheight = 7;
 constexpr short padWidth = 1;
 constexpr int padMoveSpeed = 1;
+constexpr int ballSpeed = 1;
 
 namespace Colors {
 constexpr WORD BLACK = 0x0000;

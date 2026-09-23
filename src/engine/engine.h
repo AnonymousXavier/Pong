@@ -18,3 +18,4 @@ void draw_rect(
 );
 void render_frame();
 void clear_console();
+void draw_number(int value, int x, int y, WORD color);

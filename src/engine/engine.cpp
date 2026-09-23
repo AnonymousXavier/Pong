@@ -1,7 +1,7 @@
 #include "engine.h"
-#include <cstdlib>
-#include <minwindef.h>
 #include "configs/settings.h"
+#include <minwindef.h>
+#include <string>
 
 HANDLE rHnd; // The Read Console Handle
 HANDLE wHnd; // The Write Console Handle
@@ -38,6 +38,7 @@ void draw_rect(
     WORD color,
     WORD icon
 ) {
+
   w = w; // so a 1x1 cell looks like a box not a rect
   bool inRange = x >= 0 && y >= 0 && x <= screen_width && y <= screen_height;
 
@@ -57,6 +58,13 @@ void draw_rect(
         letter.Attributes = color;
       }
     }
+  }
+}
+
+void draw_number(int x, int y, int value, WORD color) {
+  std::string string = std::to_string(value);
+  for (int i = 0; i < string.length(); i++) {
+    draw_rect(x, y, 1, 1, color, string[i]);
   }
 }
 
